@@ -1,0 +1,68 @@
+.container{
+    width: 100%;
+}
+.lorem{
+width: 98%;
+
+}
+.b{
+height: 300px;
+background-color: greenyellow;
+border: solid;
+margin: 3px;
+
+}
+.a{
+    height: 100px;
+    background-color: darkgoldenrod;
+    border: solid;
+    margin: 1px;
+}
+.c{
+    height: 200px;
+    background-color: aqua;
+    border: solid;
+    margin: 3px;
+}
+
+.d{
+    height: 100px;
+    background-color: blanchedalmond;
+    border: solid;
+    margin: 3px;
+}
+@media (max-width: 319px){
+    .b{
+        height: 25vh;
+    }
+}
+@media (min-width: 320px){
+    .c{
+        height: 160px;
+    }
+    .d{
+        width: 45%;
+        display: inline-block;
+        
+    }
+}
+
+@media (min-width: 1024px){
+    .a{
+        display: inline-block;
+        width: 49%;
+    }
+    .b{
+        height: 70vh;
+    }
+    .c{
+        width: 310px;
+        display: inline-block;
+        height: 260px;
+        margin-left: 25px;
+    }
+    .d{
+        width: 22%;
+        display: inline-block;
+    }
+}
